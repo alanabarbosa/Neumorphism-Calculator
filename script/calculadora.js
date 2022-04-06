@@ -26,6 +26,7 @@ const atualizarDisplay = (texto) => {
     } else {
         display.textContent += texto.toLocaleString('BR');
     }
+    document.querySelector('#igual').focus()
 }
 
 const inserirNumero = (evento) => atualizarDisplay(evento.target.textContent);
