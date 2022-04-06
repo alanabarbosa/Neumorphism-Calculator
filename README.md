@@ -1,4 +1,4 @@
-# Neumorphic Calculator 🖩
+# Neumorphism Calculator 🖩
  
 Application made with Javascript
 
