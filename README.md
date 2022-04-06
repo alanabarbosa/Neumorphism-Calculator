@@ -1,5 +1,5 @@
-# Neumorphic Calculator
-
+# Neumorphic Calculator 🖩
+ 
 Application made with Javascript
 
 # Imagens 📸
