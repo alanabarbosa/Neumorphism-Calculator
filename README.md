@@ -5,7 +5,7 @@ Application made with Javascript
 # Imagens 📸
 <img src="images/calculadora.gif">
  
-# Fique à vontade para colaborar com meu projeto
+## Fique à vontade para colaborar com meu projeto
 
 ---
 <h3 align="center">Technologies</h3>
