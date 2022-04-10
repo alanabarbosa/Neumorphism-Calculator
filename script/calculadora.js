@@ -12,7 +12,7 @@ const operacaoPendente = () => operador !== undefined;
 
 const calcular = () => {
     if (operacaoPendente()) {
-        const numeroAtual = parseFloat(display.textContent.replace(',', '.'));
+        const numeroAtual = parseFloat(display.textContent.replace('.','').replace(',', '.'));
         novoNumero = true;
         const resultado = eval(`${numeroAnterior}${operador}${numeroAtual}`)
         atualizarDisplay(resultado);
@@ -37,7 +37,7 @@ const selecionarOperador = (evento) => {
         calcular();
         novoNumero = true;
         operador = evento.target.textContent;
-        numeroAnterior = parseFloat(display.textContent.replace(',', '.'));
+        numeroAnterior = parseFloat(display.textContent.replace('.','').replace(',', '.'));
     }
 }
 operadores.forEach(operador => operador.addEventListener('click', selecionarOperador));
